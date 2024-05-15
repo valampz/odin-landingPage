@@ -66,6 +66,9 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
+.hero > div:first-child > h1 , .hero > div:first-child > p , .hero > div:first-child > button{
+    margin: 20px;
+}
