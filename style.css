@@ -166,3 +166,15 @@ button:hover{
     cursor: pointer;
 }
 
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 5vh;
+}
+
+footer p{
+    margin-top: 2px;
+}
