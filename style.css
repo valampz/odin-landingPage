@@ -28,6 +28,7 @@ header span{
     color: #F9FAF8;
 }
 
+
 .hero h1{
     font-size: 48px;
     font-weight: extra-bold;
@@ -65,10 +66,16 @@ ul{
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    height: 100vh;
+}
+
+.hero > div {
+    margin-top: 10%;
 }
 
 .hero > div:first-child > h1 , .hero > div:first-child > p , .hero > div:first-child > button{
     margin: 20px;
 }
+
