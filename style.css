@@ -79,3 +79,90 @@ ul{
     margin: 20px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    height: 60vh;
+}
+
+.information > h2 {
+    font-size: 36px;
+    font-weight: extra=bold;
+    color: #1F2937;
+}
+
+.img-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+figure {
+    border:  #3882F6 solid;
+    border-radius: 12%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    gap: 10;
+}
+
+figcaption{
+    margin-top: 110%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    padding: 200px;
+}
+
+.quote span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 60%;
+    font-style: normal;
+    font-weight: bold;
+    color: #333;
+}
+
+.signup-section{
+    padding: 100px;
+}
+
+.sign-up{
+    padding: 50px 10px;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    
+}
+
+.sign-up button {
+    border: #E5E7EB solid;    
+    color: #E5E7EB;
+    background-color: #3882F6;
+    height: 35px;
+    width: 65px;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
